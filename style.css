@@ -1,0 +1,345 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Inconsolata;
+}
+
+body {
+    background-color: rgb(250, 250, 250)
+}
+
+.header {
+    background-color: black;
+    padding: 5px;
+    height: 57px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+    font-size: 15px;
+}
+
+.navbar {
+    text-decoration: none;
+    width: 420px;
+    height: 45px;
+}
+
+.header>.navbar {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    transition: 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar:hover {
+    background-color: white;
+    color: black;
+}
+
+.main-container {
+    filter: grayscale(50%);
+    display: flex;
+    background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+    background-size: cover;
+    height: 547px;
+    background-position: center;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.cafe {
+    align-self: center;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.timings {
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+    background-color: black;
+}
+
+.address {
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+}
+
+.about,
+.menu {
+    padding: 16px;
+    height: 155px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.about-cafe,
+.Menu {
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    letter-spacing: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.container,
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container,
+.sub-container1{
+    font-size: 18px;
+    font-family: Inconsolata;
+    line-height: 1.5;
+    letter-spacing: 1.8;
+    margin: 18px;
+}
+
+.sub-container {
+    width: 700px;
+    height: 108px;
+}
+
+.sub-container1 {
+    width: 700px;
+    height: 81px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub-container2,
+.sub-container3 {
+    font-size: 18px;
+    font-family: Inconsolata;
+    line-height: 1.5;
+    letter-spacing: 1.8;
+    background-color: rgb(241, 241, 241);
+    padding-left: 20px;
+    border-left: 5.6px solid rgb(204, 204, 204);
+}
+
+.sub-container2 {
+    width: 700px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.sub-container3 {
+    width: 700px;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.container3,
+.container6,
+.container8{
+    text-align: center;
+    filter: grayscale(50%);
+}
+
+img {
+    width: 700px;
+    height: 395;
+    margin-top: 16px;
+}
+
+.container4,
+.container5 {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container4,
+.sub-container5 {
+    width: 700px;
+    height: 27px;
+    font-size: 18px;
+    font-family: Inconsolata;
+    line-height: 1.5;
+    letter-spacing: 1.8;
+    margin: 6px;
+}
+
+.menu-frame {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 10px 25px 10px #dedcd9;
+}
+
+.menu-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    width: 100%;
+    font-size: 20px;
+    word-spacing: 4px;
+    text-align: justify;
+    line-height: 1.7;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading {
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    width: 33%;
+    padding: 5px;
+
+}
+
+.eat,
+.drink {
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px #dedcd9;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+}
+
+.heading>.eat>.item-hover {
+    text-decoration: none;
+}
+
+.heading>.drink>.item-hover {
+    text-decoration: none;
+}
+
+
+.findus {
+    padding: 16px;
+    height: 155px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.find {
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    letter-spacing: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.container7 {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container7 {
+    width: 700px;
+    height: 27px;
+    font-size: 18px;
+    font-family: Inconsolata;
+    line-height: 1.5;
+    letter-spacing: 1.8;
+    margin: 6px;
+}
+
+.container9 {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container9 {
+    font-size: 18px;
+    font-family: Inconsolata;
+    line-height: 1.5;
+    letter-spacing: 1.8;
+    margin: 18px;
+    width: 700px;
+    height: 108px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs>input:focus {
+    outline: 2px solid #203040;
+}
+
+.inputs>input {
+    margin: 10px;
+    width: 50%;
+    padding: 20px;
+    border-radius: 0;
+    font-size: 20px;
+    border: 1px solid grey;
+    box-shadow: none;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.message {
+    display: flex;
+    justify-content: start;
+    border-radius: 5px;
+}
+
+.message:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    height: 180px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.heading>.eat>.item-hover,
+.heading>.drink>.item-hover {
+    color: black;
+    transition: 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-hover:hover {
+    background-color: lightgray;
+    color: white;
+}
